@@ -44,13 +44,15 @@ const MyProfile = () => {
       <div className="whole_box">
         <Sidebar />
         <ProfileContainer>
+
           <Box4>
+
             <div className="image-container">
               <img
                 className="profile-img"
                 src={Women}
                 alt="profile-pic"
-                style={{ width: "100%", maxWidth: "350px", minWidth: "150px" }}
+     style={{ maxWidth: "65vw", minWidth: "5vw" }}
               />
             </div>
             <div>

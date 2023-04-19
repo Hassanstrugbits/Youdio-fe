@@ -13,30 +13,28 @@ export const WholeSidebar = styled.section`
 
 }
 .sidebar_container {
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left:0;
+ 
+  top: 448px;
+  left: 0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-margin-top:3.9rem;
+  margin-top:54px;
  
 
-@media only screen and (min-width: ${mobile}) {
+    @media only screen and (min-width: ${mobile}) {
+    }
 
-}
-@media only screen and (min-width: ${tablet}) {
-display:none
-
+    @media only screen and (min-width: ${tablet}) {
+    display:none;
     }
    
     @media only screen and (min-width: ${desktop}) {
-display:none
+    display:none
     }
-    @media only screen and (min-width: ${laptop}) {
-display:none
 
+    @media only screen and (min-width: ${laptop}) {
+    display:none
     }
    
     
@@ -44,15 +42,16 @@ display:none
 .sidebar{
   display: flex;
   width: 14rem;
-  height: 100%;
+  height: 890px;
   justify-content: start;
   align-items: start;
   flex-direction: column;
   padding: 15px;
   background: whitesmoke;
-  /* box-shadow: 0 8px 32px 0 rgba(100, 165, 125, 0.37); */
   backdrop-filter: blur(5.5px);
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position:fixed;
+
 }
 .lines_icon{
   display: flex;

@@ -37,13 +37,14 @@ export const Box4 = styled(Box)`
   flex-wrap: wrap;
   .image-container {
     position: relative;
+    
   }
 
   .image-container::after {
     content: "";
     position: absolute;
-    bottom: 10px;
-    right: 50px;
+    bottom: 20px;
+    right: 20px;
     width: 50px;
     height: 50px;
     cursor: pointer;

@@ -15,10 +15,7 @@ import { useState } from "react";
 import { TocRounded } from "@mui/icons-material";
 
 function Sidebar() {
-  // const [menu, setMenu] = useState(false);
-  // const reset = () => {
-  //   setMenu(false);
-  // };
+
   const [open, setOpen] = useState(true);
 
   // for collpsing sidebar
@@ -68,7 +65,7 @@ function Sidebar() {
         initial={`${open}`}
         animate={`${open}`}
         className="sidebar_container"
-        style={{position:"absolute",zIndex:"1"}}
+        style={{zIndex:"1",position:"absolute"}}
       >
         {/* sidebar div */}
         <motion.div
